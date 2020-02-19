@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="600.0" maxWidth="1200.0" minHeight="593.0" minWidth="1200.0" prefHeight="593.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interactivewm.WorldMapController">
+    <children>
+      <ImageView fitHeight="600.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/world-countries-highlighted.gif" />
+         </image>
+      </ImageView>
+        <Button fx:id="sWitzerland" layoutX="515.0" layoutY="137.0" maxHeight="10.0" maxWidth="10.0" minHeight="10.0" minWidth="10.0" onAction="#SwiButtonAction" opacity="0.0" prefHeight="10.0" prefWidth="10.0">
+         <tooltip>
+            <Tooltip text="Switzerland" />
+         </tooltip></Button>
+      <Button fx:id="fRance" layoutX="479.0" layoutY="130.0" maxHeight="27.0" maxWidth="42.0" minHeight="10.0" minWidth="10.0" onAction="#FraButtonAction" opacity="0.0" prefHeight="20.0" prefWidth="35.0">
+         <tooltip>
+            <Tooltip text="France" />
+         </tooltip>
+      </Button>
+      <Button fx:id="sPain" layoutX="472.0" layoutY="158.0" maxHeight="27.0" maxWidth="42.0" minHeight="10.0" minWidth="10.0" onAction="#SpaButtonAction" opacity="0.0" prefHeight="20.0" prefWidth="20.0">
+         <tooltip>
+            <Tooltip text="Spain" />
+         </tooltip>
+      </Button>
+      <Button fx:id="pOrtugal" layoutX="461.0" layoutY="160.0" maxHeight="27.0" maxWidth="42.0" minHeight="10.0" minWidth="6.0" onAction="#PorButtonAction" opacity="0.0" prefHeight="24.0" prefWidth="6.0">
+         <tooltip>
+            <Tooltip text="Portugal" />
+         </tooltip>
+      </Button>
+      <Button fx:id="iTaly" layoutX="519.0" layoutY="153.0" maxHeight="27.0" maxWidth="42.0" minHeight="10.0" minWidth="10.0" onAction="#ItaButtonAction" opacity="0.0" prefHeight="13.0" prefWidth="40.0" rotate="45.0">
+         <tooltip>
+            <Tooltip text="Italy" />
+         </tooltip>
+      </Button>
+    </children>
+</AnchorPane>
